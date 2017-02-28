@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ClassCartoons.DIC_DIRACTORS>
+
+@{
+    ViewBag.Title = "Режисер(и) прив'язані до мультфільма  " + ViewBag.CartoonName;
+}
+@Html.ActionLink("Всі мультфільми", "Cartoons");
+
+<h2>@ViewBag.Title</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DR_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DR_INFO)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DR_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DR_INFO)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ClassCartoons.CARTOONS>
+
+@{
+    ViewBag.Title = "Всі мультфільми";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CR_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CR_ANNOTATION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CR_YEAR)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CR_RATING)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CR_DURATION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DIC_CARTOON_STATUSES.CS_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CR_ADRESS)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CR_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CR_ANNOTATION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CR_YEAR)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CR_RATING)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CR_DURATION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DIC_CARTOON_STATUSES.CS_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CR_ADRESS)
+        </td>
+        <td>
+            @Html.ActionLink("Компанії ", "CartoonsByCompany", new { id = item.CR_ID });
+        </td>
+    </tr>
+}
+
+</table>

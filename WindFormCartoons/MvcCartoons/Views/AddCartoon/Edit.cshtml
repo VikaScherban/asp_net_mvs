@@ -1,0 +1,88 @@
+﻿@model ClassCartoons.CARTOONS
+
+@{
+    ViewBag.Title = "Редагування інформації про мультфільм";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>CARTOONS</legend>
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_ID)
+            @Html.ValidationMessageFor(model => model.CR_ID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_NAME)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_NAME)
+            @Html.ValidationMessageFor(model => model.CR_NAME)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_ANNOTATION)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_ANNOTATION)
+            @Html.ValidationMessageFor(model => model.CR_ANNOTATION)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_YEAR)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_YEAR)
+            @Html.ValidationMessageFor(model => model.CR_YEAR)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_RATING)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_RATING)
+            @Html.ValidationMessageFor(model => model.CR_RATING)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_DURATION)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_DURATION)
+            @Html.ValidationMessageFor(model => model.CR_DURATION)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_CS)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_CS)
+            @Html.ValidationMessageFor(model => model.CR_CS)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CR_ADRESS)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CR_ADRESS)
+            @Html.ValidationMessageFor(model => model.CR_ADRESS)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Повернутись до списку мультфільмів", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

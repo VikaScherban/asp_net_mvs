@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ClassCartoons.DIC_GENRE>
+
+@{
+    ViewBag.Title = "Жанри";
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.GR_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GR_INFO)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.GR_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GR_INFO)
+        </td>
+        <td>
+            @Html.ActionLink("Мультфільми", "CartoonsByGenre", new {id=item.GR_ID})
+        </td>
+    </tr>
+}
+
+</table>

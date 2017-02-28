@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DBCartoonsModelContainer" CdmEntityContainer="DBCartoonsEntities">
+    <EntitySetMapping Name="CARTOONS">
+      <EntityTypeMapping TypeName="DBCartoonsModel.CARTOONS">
+        <MappingFragment StoreEntitySet="CARTOONS">
+          <ScalarProperty Name="CR_ID" ColumnName="CR_ID" />
+          <ScalarProperty Name="CR_NAME" ColumnName="CR_NAME" />
+          <ScalarProperty Name="CR_ANNOTATION" ColumnName="CR_ANNOTATION" />
+          <ScalarProperty Name="CR_YEAR" ColumnName="CR_YEAR" />
+          <ScalarProperty Name="CR_RATING" ColumnName="CR_RATING" />
+          <ScalarProperty Name="CR_DURATION" ColumnName="CR_DURATION" />
+          <ScalarProperty Name="CR_CS" ColumnName="CR_CS" />
+          <ScalarProperty Name="CR_ADRESS" ColumnName="CR_ADRESS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMPANY_CARTOONS">
+      <EntityTypeMapping TypeName="DBCartoonsModel.COMPANY_CARTOONS">
+        <MappingFragment StoreEntitySet="COMPANY_CARTOONS">
+          <ScalarProperty Name="CC_CR" ColumnName="CC_CR" />
+          <ScalarProperty Name="CC_CP" ColumnName="CC_CP" />
+          <ScalarProperty Name="CC_ID" ColumnName="CC_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIC_CARTOON_STATUSES">
+      <EntityTypeMapping TypeName="DBCartoonsModel.DIC_CARTOON_STATUSES">
+        <MappingFragment StoreEntitySet="DIC_CARTOON_STATUSES">
+          <ScalarProperty Name="CS_ID" ColumnName="CS_ID" />
+          <ScalarProperty Name="CS_NAME" ColumnName="CS_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIC_COMPANY">
+      <EntityTypeMapping TypeName="DBCartoonsModel.DIC_COMPANY">
+        <MappingFragment StoreEntitySet="DIC_COMPANY">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="CP_NAME" ColumnName="CP_NAME" />
+          <ScalarProperty Name="CP_INFO" ColumnName="CP_INFO" />
+          <ScalarProperty Name="CP_CT" ColumnName="CP_CT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIC_COUNRTY">
+      <EntityTypeMapping TypeName="DBCartoonsModel.DIC_COUNRTY">
+        <MappingFragment StoreEntitySet="DIC_COUNRTY">
+          <ScalarProperty Name="CT_ID" ColumnName="CT_ID" />
+          <ScalarProperty Name="CT_NAME" ColumnName="CT_NAME" />
+          <ScalarProperty Name="CT_INFO" ColumnName="CT_INFO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIC_DIRACTORS">
+      <EntityTypeMapping TypeName="DBCartoonsModel.DIC_DIRACTORS">
+        <MappingFragment StoreEntitySet="DIC_DIRACTORS">
+          <ScalarProperty Name="DR_ID" ColumnName="DR_ID" />
+          <ScalarProperty Name="DR_NAME" ColumnName="DR_NAME" />
+          <ScalarProperty Name="DR_INFO" ColumnName="DR_INFO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIC_GENRE">
+      <EntityTypeMapping TypeName="DBCartoonsModel.DIC_GENRE">
+        <MappingFragment StoreEntitySet="DIC_GENRE">
+          <ScalarProperty Name="GR_ID" ColumnName="GR_ID" />
+          <ScalarProperty Name="GR_NAME" ColumnName="GR_NAME" />
+          <ScalarProperty Name="GR_INFO" ColumnName="GR_INFO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIRACTORS_CARTOONS">
+      <EntityTypeMapping TypeName="DBCartoonsModel.DIRACTORS_CARTOONS">
+        <MappingFragment StoreEntitySet="DIRACTORS_CARTOONS">
+          <ScalarProperty Name="DK_CR" ColumnName="DK_CR" />
+          <ScalarProperty Name="DK_DR" ColumnName="DK_DR" />
+          <ScalarProperty Name="DK_ID" ColumnName="DK_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENRE_CARTOONS">
+      <EntityTypeMapping TypeName="DBCartoonsModel.GENRE_CARTOONS">
+        <MappingFragment StoreEntitySet="GENRE_CARTOONS">
+          <ScalarProperty Name="GC_CR" ColumnName="GC_CR" />
+          <ScalarProperty Name="GC_GR" ColumnName="GC_GR" />
+          <ScalarProperty Name="GC_ID" ColumnName="GC_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOGIN">
+      <EntityTypeMapping TypeName="DBCartoonsModel.LOGIN">
+        <MappingFragment StoreEntitySet="LOGIN">
+          <ScalarProperty Name="LG_DR" ColumnName="LG_DR" />
+          <ScalarProperty Name="LG_ISADMIN" ColumnName="LG_ISADMIN" />
+          <ScalarProperty Name="LG_PASSWORD" ColumnName="LG_PASSWORD" />
+          <ScalarProperty Name="LG_LOGIN" ColumnName="LG_LOGIN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,66 @@
+﻿@model ClassCartoons.CARTOONS
+
+@{
+    ViewBag.Title = "Детально про мультфільм";
+    
+}
+
+<h2>Деталі</h2>
+
+<fieldset>
+    <legend>CARTOONS</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CR_NAME)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CR_NAME)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CR_ANNOTATION)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CR_ANNOTATION)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CR_YEAR)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CR_YEAR)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CR_RATING)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CR_RATING)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CR_DURATION)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CR_DURATION)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DIC_CARTOON_STATUSES.CS_NAME)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DIC_CARTOON_STATUSES.CS_NAME)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CR_ADRESS)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CR_ADRESS)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Редагувати", "Edit", new { id=Model.CR_ID }) |
+    @Html.ActionLink("Повернутися до списку мультфільмів", "Index")
+</p>
+

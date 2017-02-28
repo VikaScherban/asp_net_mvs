@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBCartoonsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBCartoonsEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="CARTOONS" EntityType="DBCartoonsModel.CARTOONS" />
+    <EntitySet Name="COMPANY_CARTOONS" EntityType="DBCartoonsModel.COMPANY_CARTOONS" />
+    <EntitySet Name="DIC_CARTOON_STATUSES" EntityType="DBCartoonsModel.DIC_CARTOON_STATUSES" />
+    <EntitySet Name="DIC_COMPANY" EntityType="DBCartoonsModel.DIC_COMPANY" />
+    <EntitySet Name="DIC_COUNRTY" EntityType="DBCartoonsModel.DIC_COUNRTY" />
+    <EntitySet Name="DIC_DIRACTORS" EntityType="DBCartoonsModel.DIC_DIRACTORS" />
+    <EntitySet Name="DIC_GENRE" EntityType="DBCartoonsModel.DIC_GENRE" />
+    <EntitySet Name="DIRACTORS_CARTOONS" EntityType="DBCartoonsModel.DIRACTORS_CARTOONS" />
+    <EntitySet Name="GENRE_CARTOONS" EntityType="DBCartoonsModel.GENRE_CARTOONS" />
+    <AssociationSet Name="FK_CARTOONS_DIC_CARTOON_STATUSES" Association="DBCartoonsModel.FK_CARTOONS_DIC_CARTOON_STATUSES">
+      <End Role="DIC_CARTOON_STATUSES" EntitySet="DIC_CARTOON_STATUSES" />
+      <End Role="CARTOONS" EntitySet="CARTOONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMPANY_CARTOONS_CARTOONS" Association="DBCartoonsModel.FK_COMPANY_CARTOONS_CARTOONS">
+      <End Role="CARTOONS" EntitySet="CARTOONS" />
+      <End Role="COMPANY_CARTOONS" EntitySet="COMPANY_CARTOONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DIRACTORS_CARTOONS_CARTOONS" Association="DBCartoonsModel.FK_DIRACTORS_CARTOONS_CARTOONS">
+      <End Role="CARTOONS" EntitySet="CARTOONS" />
+      <End Role="DIRACTORS_CARTOONS" EntitySet="DIRACTORS_CARTOONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GENRE_CARTOONS_CARTOONS" Association="DBCartoonsModel.FK_GENRE_CARTOONS_CARTOONS">
+      <End Role="CARTOONS" EntitySet="CARTOONS" />
+      <End Role="GENRE_CARTOONS" EntitySet="GENRE_CARTOONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMPANY_CARTOONS_DIC_COMPANY" Association="DBCartoonsModel.FK_COMPANY_CARTOONS_DIC_COMPANY">
+      <End Role="DIC_COMPANY" EntitySet="DIC_COMPANY" />
+      <End Role="COMPANY_CARTOONS" EntitySet="COMPANY_CARTOONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DIC_COMPANY_DIC_COUNRTY" Association="DBCartoonsModel.FK_DIC_COMPANY_DIC_COUNRTY">
+      <End Role="DIC_COUNRTY" EntitySet="DIC_COUNRTY" />
+      <End Role="DIC_COMPANY" EntitySet="DIC_COMPANY" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DIRACTORS_CARTOONS_DIC_DIRACTORS" Association="DBCartoonsModel.FK_DIRACTORS_CARTOONS_DIC_DIRACTORS">
+      <End Role="DIC_DIRACTORS" EntitySet="DIC_DIRACTORS" />
+      <End Role="DIRACTORS_CARTOONS" EntitySet="DIRACTORS_CARTOONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GENRE_CARTOONS_DIC_GENRE" Association="DBCartoonsModel.FK_GENRE_CARTOONS_DIC_GENRE">
+      <End Role="DIC_GENRE" EntitySet="DIC_GENRE" />
+      <End Role="GENRE_CARTOONS" EntitySet="GENRE_CARTOONS" />
+    </AssociationSet>
+    <EntitySet Name="LOGIN" EntityType="DBCartoonsModel.LOGIN" />
+    <AssociationSet Name="FK_LOGIN_DIC_DIRACTORS" Association="DBCartoonsModel.FK_LOGIN_DIC_DIRACTORS">
+      <End Role="DIC_DIRACTORS" EntitySet="DIC_DIRACTORS" />
+      <End Role="LOGIN" EntitySet="LOGIN" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CARTOONS">
+    <Key>
+      <PropertyRef Name="CR_ID" />
+    </Key>
+    <Property Name="CR_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CR_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="CR_ANNOTATION" Type="String" MaxLength="1000" Unicode="true" FixedLength="true" />
+    <Property Name="CR_YEAR" Type="Int32" />
+    <Property Name="CR_RATING" Type="Single" />
+    <Property Name="CR_DURATION" Type="Int32" />
+    <Property Name="CR_CS" Type="Int32" Nullable="false" />
+    <Property Name="CR_ADRESS" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="DIC_CARTOON_STATUSES" Relationship="DBCartoonsModel.FK_CARTOONS_DIC_CARTOON_STATUSES" FromRole="CARTOONS" ToRole="DIC_CARTOON_STATUSES" />
+    <NavigationProperty Name="COMPANY_CARTOONS" Relationship="DBCartoonsModel.FK_COMPANY_CARTOONS_CARTOONS" FromRole="CARTOONS" ToRole="COMPANY_CARTOONS" />
+    <NavigationProperty Name="DIRACTORS_CARTOONS" Relationship="DBCartoonsModel.FK_DIRACTORS_CARTOONS_CARTOONS" FromRole="CARTOONS" ToRole="DIRACTORS_CARTOONS" />
+    <NavigationProperty Name="GENRE_CARTOONS" Relationship="DBCartoonsModel.FK_GENRE_CARTOONS_CARTOONS" FromRole="CARTOONS" ToRole="GENRE_CARTOONS" />
+  </EntityType>
+  <EntityType Name="COMPANY_CARTOONS">
+    <Key>
+      <PropertyRef Name="CC_ID" />
+    </Key>
+    <Property Name="CC_CR" Type="Int32" Nullable="false" />
+    <Property Name="CC_CP" Type="Int32" Nullable="false" />
+    <Property Name="CC_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="CARTOONS" Relationship="DBCartoonsModel.FK_COMPANY_CARTOONS_CARTOONS" FromRole="COMPANY_CARTOONS" ToRole="CARTOONS" />
+    <NavigationProperty Name="DIC_COMPANY" Relationship="DBCartoonsModel.FK_COMPANY_CARTOONS_DIC_COMPANY" FromRole="COMPANY_CARTOONS" ToRole="DIC_COMPANY" />
+  </EntityType>
+  <EntityType Name="DIC_CARTOON_STATUSES">
+    <Key>
+      <PropertyRef Name="CS_ID" />
+    </Key>
+    <Property Name="CS_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CS_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="CARTOONS" Relationship="DBCartoonsModel.FK_CARTOONS_DIC_CARTOON_STATUSES" FromRole="DIC_CARTOON_STATUSES" ToRole="CARTOONS" />
+  </EntityType>
+  <EntityType Name="DIC_COMPANY">
+    <Key>
+      <PropertyRef Name="CP_ID" />
+    </Key>
+    <Property Name="CP_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CP_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="CP_INFO" Type="String" MaxLength="1000" Unicode="true" FixedLength="true" />
+    <Property Name="CP_CT" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="COMPANY_CARTOONS" Relationship="DBCartoonsModel.FK_COMPANY_CARTOONS_DIC_COMPANY" FromRole="DIC_COMPANY" ToRole="COMPANY_CARTOONS" />
+    <NavigationProperty Name="DIC_COUNRTY" Relationship="DBCartoonsModel.FK_DIC_COMPANY_DIC_COUNRTY" FromRole="DIC_COMPANY" ToRole="DIC_COUNRTY" />
+  </EntityType>
+  <EntityType Name="DIC_COUNRTY">
+    <Key>
+      <PropertyRef Name="CT_ID" />
+    </Key>
+    <Property Name="CT_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CT_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="CT_INFO" Type="String" MaxLength="1000" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="DIC_COMPANY" Relationship="DBCartoonsModel.FK_DIC_COMPANY_DIC_COUNRTY" FromRole="DIC_COUNRTY" ToRole="DIC_COMPANY" />
+  </EntityType>
+  <EntityType Name="DIC_DIRACTORS">
+    <Key>
+      <PropertyRef Name="DR_ID" />
+    </Key>
+    <Property Name="DR_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DR_NAME" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="DR_INFO" Type="String" MaxLength="1000" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="DIRACTORS_CARTOONS" Relationship="DBCartoonsModel.FK_DIRACTORS_CARTOONS_DIC_DIRACTORS" FromRole="DIC_DIRACTORS" ToRole="DIRACTORS_CARTOONS" />
+    <NavigationProperty Name="LOGIN" Relationship="DBCartoonsModel.FK_LOGIN_DIC_DIRACTORS" FromRole="DIC_DIRACTORS" ToRole="LOGIN" />
+  </EntityType>
+  <EntityType Name="DIC_GENRE">
+    <Key>
+      <PropertyRef Name="GR_ID" />
+    </Key>
+    <Property Name="GR_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GR_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="GR_INFO" Type="String" MaxLength="1000" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="GENRE_CARTOONS" Relationship="DBCartoonsModel.FK_GENRE_CARTOONS_DIC_GENRE" FromRole="DIC_GENRE" ToRole="GENRE_CARTOONS" />
+  </EntityType>
+  <EntityType Name="DIRACTORS_CARTOONS">
+    <Key>
+      <PropertyRef Name="DK_ID" />
+    </Key>
+    <Property Name="DK_CR" Type="Int32" Nullable="false" />
+    <Property Name="DK_DR" Type="Int32" Nullable="false" />
+    <Property Name="DK_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="CARTOONS" Relationship="DBCartoonsModel.FK_DIRACTORS_CARTOONS_CARTOONS" FromRole="DIRACTORS_CARTOONS" ToRole="CARTOONS" />
+    <NavigationProperty Name="DIC_DIRACTORS" Relationship="DBCartoonsModel.FK_DIRACTORS_CARTOONS_DIC_DIRACTORS" FromRole="DIRACTORS_CARTOONS" ToRole="DIC_DIRACTORS" />
+  </EntityType>
+  <EntityType Name="GENRE_CARTOONS">
+    <Key>
+      <PropertyRef Name="GC_ID" />
+    </Key>
+    <Property Name="GC_CR" Type="Int32" Nullable="false" />
+    <Property Name="GC_GR" Type="Int32" Nullable="false" />
+    <Property Name="GC_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="CARTOONS" Relationship="DBCartoonsModel.FK_GENRE_CARTOONS_CARTOONS" FromRole="GENRE_CARTOONS" ToRole="CARTOONS" />
+    <NavigationProperty Name="DIC_GENRE" Relationship="DBCartoonsModel.FK_GENRE_CARTOONS_DIC_GENRE" FromRole="GENRE_CARTOONS" ToRole="DIC_GENRE" />
+  </EntityType>
+  <Association Name="FK_CARTOONS_DIC_CARTOON_STATUSES">
+    <End Role="DIC_CARTOON_STATUSES" Type="DBCartoonsModel.DIC_CARTOON_STATUSES" Multiplicity="1" />
+    <End Role="CARTOONS" Type="DBCartoonsModel.CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIC_CARTOON_STATUSES">
+        <PropertyRef Name="CS_ID" />
+      </Principal>
+      <Dependent Role="CARTOONS">
+        <PropertyRef Name="CR_CS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMPANY_CARTOONS_CARTOONS">
+    <End Role="CARTOONS" Type="DBCartoonsModel.CARTOONS" Multiplicity="1" />
+    <End Role="COMPANY_CARTOONS" Type="DBCartoonsModel.COMPANY_CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARTOONS">
+        <PropertyRef Name="CR_ID" />
+      </Principal>
+      <Dependent Role="COMPANY_CARTOONS">
+        <PropertyRef Name="CC_CR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DIRACTORS_CARTOONS_CARTOONS">
+    <End Role="CARTOONS" Type="DBCartoonsModel.CARTOONS" Multiplicity="1" />
+    <End Role="DIRACTORS_CARTOONS" Type="DBCartoonsModel.DIRACTORS_CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARTOONS">
+        <PropertyRef Name="CR_ID" />
+      </Principal>
+      <Dependent Role="DIRACTORS_CARTOONS">
+        <PropertyRef Name="DK_CR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GENRE_CARTOONS_CARTOONS">
+    <End Role="CARTOONS" Type="DBCartoonsModel.CARTOONS" Multiplicity="1" />
+    <End Role="GENRE_CARTOONS" Type="DBCartoonsModel.GENRE_CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARTOONS">
+        <PropertyRef Name="CR_ID" />
+      </Principal>
+      <Dependent Role="GENRE_CARTOONS">
+        <PropertyRef Name="GC_CR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMPANY_CARTOONS_DIC_COMPANY">
+    <End Role="DIC_COMPANY" Type="DBCartoonsModel.DIC_COMPANY" Multiplicity="1" />
+    <End Role="COMPANY_CARTOONS" Type="DBCartoonsModel.COMPANY_CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIC_COMPANY">
+        <PropertyRef Name="CP_ID" />
+      </Principal>
+      <Dependent Role="COMPANY_CARTOONS">
+        <PropertyRef Name="CC_CP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DIC_COMPANY_DIC_COUNRTY">
+    <End Role="DIC_COUNRTY" Type="DBCartoonsModel.DIC_COUNRTY" Multiplicity="1" />
+    <End Role="DIC_COMPANY" Type="DBCartoonsModel.DIC_COMPANY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIC_COUNRTY">
+        <PropertyRef Name="CT_ID" />
+      </Principal>
+      <Dependent Role="DIC_COMPANY">
+        <PropertyRef Name="CP_CT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DIRACTORS_CARTOONS_DIC_DIRACTORS">
+    <End Role="DIC_DIRACTORS" Type="DBCartoonsModel.DIC_DIRACTORS" Multiplicity="1" />
+    <End Role="DIRACTORS_CARTOONS" Type="DBCartoonsModel.DIRACTORS_CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIC_DIRACTORS">
+        <PropertyRef Name="DR_ID" />
+      </Principal>
+      <Dependent Role="DIRACTORS_CARTOONS">
+        <PropertyRef Name="DK_DR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GENRE_CARTOONS_DIC_GENRE">
+    <End Role="DIC_GENRE" Type="DBCartoonsModel.DIC_GENRE" Multiplicity="1" />
+    <End Role="GENRE_CARTOONS" Type="DBCartoonsModel.GENRE_CARTOONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIC_GENRE">
+        <PropertyRef Name="GR_ID" />
+      </Principal>
+      <Dependent Role="GENRE_CARTOONS">
+        <PropertyRef Name="GC_GR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="LOGIN">
+    <Key>
+      <PropertyRef Name="LG_LOGIN" />
+    </Key>
+    <Property Type="String" Name="LG_LOGIN" Nullable="false" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LG_PASSWORD" Nullable="false" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="LG_ISADMIN" />
+    <Property Type="Int32" Name="LG_DR" />
+    <NavigationProperty Name="DIC_DIRACTORS" Relationship="DBCartoonsModel.FK_LOGIN_DIC_DIRACTORS" FromRole="LOGIN" ToRole="DIC_DIRACTORS" />
+  </EntityType>
+  <Association Name="FK_LOGIN_DIC_DIRACTORS">
+    <End Type="DBCartoonsModel.DIC_DIRACTORS" Role="DIC_DIRACTORS" Multiplicity="0..1" />
+    <End Type="DBCartoonsModel.LOGIN" Role="LOGIN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIC_DIRACTORS">
+        <PropertyRef Name="DR_ID" />
+      </Principal>
+      <Dependent Role="LOGIN">
+        <PropertyRef Name="LG_DR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

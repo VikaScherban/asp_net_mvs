@@ -1,0 +1,8 @@
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll.config
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.pdb
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.xml
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ru\EntityFramework.resources.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.pdb

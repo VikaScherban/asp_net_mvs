@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ClassCartoons.DIC_DIRACTORS>
+
+@{
+    ViewBag.Title = "Режисери";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Додати нового режисера", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DR_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DR_INFO)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DR_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DR_INFO)
+        </td>
+        <td>
+            @Html.ActionLink("Редагування", "Edit", new { id=item.DR_ID }) |
+            @Html.ActionLink("Детально", "Details", new { id=item.DR_ID }) |
+            @Html.ActionLink("Видалення", "Delete", new { id=item.DR_ID })
+        </td>
+    </tr>
+}
+
+</table>

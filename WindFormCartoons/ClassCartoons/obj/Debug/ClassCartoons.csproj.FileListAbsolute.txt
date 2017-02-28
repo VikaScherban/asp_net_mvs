@@ -1,0 +1,33 @@
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll.config
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.pdb
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.xml
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ru\EntityFramework.resources.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.pdb
+C:\Users\Виктория\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.csprojResolveAssemblyReference.cache
+I:\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll.config
+I:\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll
+I:\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.pdb
+I:\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.dll
+I:\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.xml
+I:\WindFormCartoons\ClassCartoons\bin\Debug\ru\EntityFramework.resources.dll
+I:\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.csprojResolveAssemblyReference.cache
+I:\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.dll
+I:\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ClassCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\ClassCartoons\obj\Debug\ClassCartoons.csprojResolveAssemblyReference.cache
+I:\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.SqlServer.dll
+I:\WindFormCartoons\ClassCartoons\bin\Debug\EntityFramework.SqlServer.xml
+I:\WindFormCartoons\ClassCartoons\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

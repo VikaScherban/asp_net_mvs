@@ -1,0 +1,136 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\MvcCartoons.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\MvcCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.Core.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Helpers.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Http.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Mvc.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Optimization.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Razor.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\WebGrease.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\WebMatrix.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\WebMatrix.WebData.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Helpers.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Http.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Mvc.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.Razor.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\WebMatrix.Data.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\WebMatrix.WebData.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.Core.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\EntityFramework.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Http.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\obj\Debug\MvcCartoons.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\obj\Debug\MvcCartoons.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\obj\Debug\MvcCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ClassCartoons.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ClassCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\MvcCartoons\bin\ru\EntityFramework.SqlServer.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\MvcCartoons.dll
+I:\WindFormCartoons\MvcCartoons\bin\MvcCartoons.pdb
+I:\WindFormCartoons\MvcCartoons\bin\Antlr3.Runtime.dll
+I:\WindFormCartoons\MvcCartoons\bin\ClassCartoons.dll
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.AspNet.dll
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.Core.dll
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.Consumer.dll
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.dll
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.dll
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+I:\WindFormCartoons\MvcCartoons\bin\EntityFramework.dll
+I:\WindFormCartoons\MvcCartoons\bin\EntityFramework.SqlServer.dll
+I:\WindFormCartoons\MvcCartoons\bin\Microsoft.Web.Infrastructure.dll
+I:\WindFormCartoons\MvcCartoons\bin\Microsoft.Web.WebPages.OAuth.dll
+I:\WindFormCartoons\MvcCartoons\bin\Newtonsoft.Json.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Net.Http.Formatting.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Helpers.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Http.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Http.WebHost.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Mvc.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Optimization.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Razor.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Deployment.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.dll
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Razor.dll
+I:\WindFormCartoons\MvcCartoons\bin\WebGrease.dll
+I:\WindFormCartoons\MvcCartoons\bin\WebMatrix.Data.dll
+I:\WindFormCartoons\MvcCartoons\bin\WebMatrix.WebData.dll
+I:\WindFormCartoons\MvcCartoons\bin\ClassCartoons.pdb
+I:\WindFormCartoons\MvcCartoons\bin\EntityFramework.xml
+I:\WindFormCartoons\MvcCartoons\bin\EntityFramework.SqlServer.xml
+I:\WindFormCartoons\MvcCartoons\bin\Newtonsoft.Json.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Net.Http.Formatting.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Helpers.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Http.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Http.WebHost.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Mvc.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.Razor.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Deployment.xml
+I:\WindFormCartoons\MvcCartoons\bin\System.Web.WebPages.Razor.xml
+I:\WindFormCartoons\MvcCartoons\bin\WebMatrix.Data.xml
+I:\WindFormCartoons\MvcCartoons\bin\Microsoft.Web.WebPages.OAuth.xml
+I:\WindFormCartoons\MvcCartoons\bin\WebMatrix.WebData.xml
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.AspNet.xml
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.Core.xml
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.Consumer.xml
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OAuth.xml
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.xml
+I:\WindFormCartoons\MvcCartoons\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+I:\WindFormCartoons\MvcCartoons\bin\ru\EntityFramework.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\EntityFramework.SqlServer.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Net.Http.Formatting.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Helpers.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Http.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Http.WebHost.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Mvc.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Optimization.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.Razor.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.WebPages.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.WebPages.Deployment.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\System.Web.WebPages.Razor.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\WebMatrix.Data.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+I:\WindFormCartoons\MvcCartoons\bin\ru\WebMatrix.WebData.resources.dll
+I:\WindFormCartoons\MvcCartoons\obj\Debug\MvcCartoons.csprojResolveAssemblyReference.cache
+I:\WindFormCartoons\MvcCartoons\obj\Debug\MvcCartoons.dll
+I:\WindFormCartoons\MvcCartoons\obj\Debug\MvcCartoons.pdb

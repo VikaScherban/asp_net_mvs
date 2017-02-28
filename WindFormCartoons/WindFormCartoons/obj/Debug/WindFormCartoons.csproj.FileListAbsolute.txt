@@ -1,0 +1,60 @@
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe.config
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.pdb
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.csprojResolveAssemblyReference.cache
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.Properties.Resources.resources
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.csproj.GenerateResource.Cache
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.exe
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.pdb
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ClassCartoons.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ClassCartoons.pdb
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.xml
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ru\EntityFramework.resources.dll
+c:\users\виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmCartoons.resources
+C:\Users\Виктория\documents\visual studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FormSearch.resources
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe.config
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.csprojResolveAssemblyReference.cache
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmCartoons.resources
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FormSearch.resources
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.Properties.Resources.resources
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.csproj.GenerateResource.Cache
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.pdb
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\ClassCartoons.dll
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.dll
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\ClassCartoons.pdb
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.xml
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\ru\EntityFramework.resources.dll
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.exe
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ClassCartoons.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ClassCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmCartoons.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FormSearch.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\WindFormCartoons\WindFormCartoons\bin\Debug\WindFormCartoons.exe.config
+C:\Users\Admin\Desktop\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.exe
+C:\Users\Admin\Desktop\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmAddCompany.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmAddDiractor.resources
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmAddGenre.resources
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.SqlServer.dll
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\EntityFramework.SqlServer.xml
+I:\WindFormCartoons\WindFormCartoons\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmAddCompany.resources
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmAddDiractor.resources
+I:\WindFormCartoons\WindFormCartoons\obj\Debug\WindFormCartoons.FrmAddGenre.resources

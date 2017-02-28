@@ -1,0 +1,29 @@
+﻿@model ClassCartoons.DIC_DIRACTORS
+
+@{
+    ViewBag.Title = "Детально про режисера";
+}
+
+<h2>Деталі</h2>
+
+<fieldset>
+    <legend>DIC_DIRACTORS</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DR_NAME)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DR_NAME)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DR_INFO)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DR_INFO)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Редагувати", "Edit", new { id=Model.DR_ID }) |
+    @Html.ActionLink("Повернутися до списку ружисерів", "Index")
+</p>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ClassCartoons.DIC_COMPANY>
+
+@{
+    ViewBag.Title = "Компанії зв'язані з мультфільмом  " + ViewBag.CartoonName;
+}
+@Html.ActionLink("Всі компанії ", "Company");
+
+<h2>@ViewBag.Title</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CP_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CP_INFO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DIC_COUNRTY.CT_NAME)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CP_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CP_INFO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DIC_COUNRTY.CT_NAME)
+        </td>
+   </tr>
+}
+
+</table>

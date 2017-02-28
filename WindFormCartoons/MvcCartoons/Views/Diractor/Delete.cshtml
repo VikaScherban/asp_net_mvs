@@ -1,0 +1,38 @@
+﻿@model ClassCartoons.DIC_DIRACTORS
+
+@{
+    ViewBag.Title = "Видалення";
+}
+
+<h2>Видалення</h2>
+
+<h3>Ви впевнені, що хочете видалити інформацію про режисера?</h3>
+<fieldset>
+    <legend>DIC_DIRACTORS</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DR_ID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DR_ID)
+    </div>
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DR_NAME)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DR_NAME)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DR_INFO)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DR_INFO)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Повернення до списку режисерів", "Index")
+    </p>
+}

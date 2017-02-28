@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dbc85684d13a47bca783f5e0a18f66cc" Name="Диаграмма1">
+        <EntityTypeShape EntityType="DBCartoonsModel.CARTOONS" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.COMPANY_CARTOONS" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.DIC_CARTOON_STATUSES" Width="1.75" PointX="0.875" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.DIC_COMPANY" Width="1.5" PointX="5.625" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.DIC_COUNRTY" Width="1.5" PointX="5.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.DIC_DIRACTORS" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.DIC_GENRE" Width="1.5" PointX="2.125" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.DIRACTORS_CARTOONS" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCartoonsModel.GENRE_CARTOONS" Width="1.5" PointX="2.125" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="DBCartoonsModel.FK_CARTOONS_DIC_CARTOON_STATUSES" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_COMPANY_CARTOONS_CARTOONS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_DIRACTORS_CARTOONS_CARTOONS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_GENRE_CARTOONS_CARTOONS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_COMPANY_CARTOONS_DIC_COMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_DIC_COMPANY_DIC_COUNRTY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_DIRACTORS_CARTOONS_DIC_DIRACTORS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCartoonsModel.FK_GENRE_CARTOONS_DIC_GENRE" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBCartoonsModel.LOGIN" Width="1.5" PointX="8" PointY="0.875" />
+        <AssociationConnector Association="DBCartoonsModel.FK_LOGIN_DIC_DIRACTORS" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

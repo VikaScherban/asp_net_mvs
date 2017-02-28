@@ -1,0 +1,46 @@
+﻿@model ClassCartoons.DIC_DIRACTORS
+
+@{
+    ViewBag.Title = "Редагування інформації про режисера";
+}
+
+<h2>Редагування</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>DIC_DIRACTORS</legend>
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DR_ID)
+            @Html.ValidationMessageFor(model => model.DR_ID)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DR_NAME)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DR_NAME)
+            @Html.ValidationMessageFor(model => model.DR_NAME)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DR_INFO)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DR_INFO)
+            @Html.ValidationMessageFor(model => model.DR_INFO)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Повернутись до списку режисерів", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
